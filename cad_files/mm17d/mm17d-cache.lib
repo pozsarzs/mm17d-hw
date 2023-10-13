@@ -1,0 +1,195 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_01x02_Male
+#
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x04_Male
+#
+DEF Connector_Conn_01x04_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x04_Male" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+X Pin_4 4 200 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mm17d-rescue_D-mm7d-rescue
+#
+DEF mm17d-rescue_D-mm7d-rescue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "mm17d-rescue_D-mm7d-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Diode_*
+ D-*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mm17d-rescue_device_CP_Small-mm7d-rescue
+#
+DEF mm17d-rescue_device_CP_Small-mm7d-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "mm17d-rescue_device_CP_Small-mm7d-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mm17d-rescue_device_R-mm7d-rescue
+#
+DEF mm17d-rescue_device_R-mm7d-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "mm17d-rescue_device_R-mm7d-rescue" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mm17d-rescue_pzs_devices_DHT11-mm7d-rescue
+#
+DEF mm17d-rescue_pzs_devices_DHT11-mm7d-rescue U 0 40 Y Y 1 F N
+F0 "U" -100 250 50 H V C CNN
+F1 "mm17d-rescue_pzs_devices_DHT11-mm7d-rescue" 0 -250 50 H V C CNN
+F2 "" -130 220 50 H I C CNN
+F3 "" -130 220 50 H I C CNN
+DRAW
+S -150 -200 150 200 0 1 0 N
+X VCC 1 -250 150 100 R 50 50 1 1 W
+X IO 2 -250 50 100 R 50 50 1 1 B
+X NC 3 -250 -50 100 R 50 50 1 1 N
+X GND 4 -250 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mm17d-rescue_pzs_devices_LED-CIRCLE-mm7d-rescue
+#
+DEF mm17d-rescue_pzs_devices_LED-CIRCLE-mm7d-rescue D 0 40 Y N 1 F N
+F0 "D" 0 125 50 H V C CNN
+F1 "mm17d-rescue_pzs_devices_LED-CIRCLE-mm7d-rescue" 0 -175 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+C 0 0 86 0 1 0 N
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -130 -65 -190 -125 -160 -125 -190 -125 -190 -95 N
+P 5 0 1 0 -80 -65 -140 -125 -110 -125 -140 -125 -140 -95 N
+X K 1 -200 0 150 R 50 50 1 1 P
+X A 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# mm17d-rescue_pzs_others_0V-mm7d-rescue
+#
+DEF mm17d-rescue_pzs_others_0V-mm7d-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "mm17d-rescue_pzs_others_0V-mm7d-rescue" 0 -150 50 H I C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 25 50 -50 -50 -50 N
+X GND 1 0 0 50 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pzs_devices_Adafruit_Huzzah_Breakout
+#
+DEF pzs_devices_Adafruit_Huzzah_Breakout U 0 40 Y Y 1 F N
+F0 "U" -300 550 60 H V C CNN
+F1 "pzs_devices_Adafruit_Huzzah_Breakout" 50 -750 60 H V C CNN
+F2 "" 0 -430 60 H I C CNN
+F3 "" 0 -430 60 H I C CNN
+DRAW
+S -350 500 350 -600 0 1 0 N
+X RST 1 600 -500 250 L 50 50 1 1 I
+X GND 10 600 400 250 L 50 50 1 1 P
+X GND 11 -600 400 250 R 50 50 1 1 P
+X LDO 12 -600 300 250 R 50 50 1 1 I
+X 3.3V 13 -600 200 250 R 50 50 1 1 w
+X #15 14 -600 100 250 R 50 50 1 1 B
+X #2 15 -600 0 250 R 50 50 1 1 B
+X #0 16 -600 -100 250 R 50 50 1 1 B
+X #4 17 -600 -200 250 R 50 50 1 1 B
+X #5 18 -600 -300 250 R 50 50 1 1 B
+X RX 19 -600 -400 250 R 50 50 1 1 I
+X A 2 600 -400 250 L 50 50 1 1 I
+X TX 20 -600 -500 250 R 50 50 1 1 O
+X EN 3 600 -300 250 L 50 50 1 1 I
+X #16 4 600 -200 250 L 50 50 1 1 B
+X #14 5 600 -100 250 L 50 50 1 1 B
+X #12 6 600 0 250 L 50 50 1 1 B
+X #13 7 600 100 250 L 50 50 1 1 B
+X V+ 8 600 200 250 L 50 50 1 1 w
+X VBat 9 600 300 250 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
