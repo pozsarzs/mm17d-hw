@@ -1,7 +1,7 @@
 ## MM17D * RH/T measuring device  
 Copyright (C) 2023 Pozsár Zsolt <pozsarzs@gmail.com>  
 Homepage: <http://www.pozsarzs.hu>  
-GitHub: <https://github.com/pozsarzs/mm17d-sw>
+GitHub: <https://github.com/pozsarzs/mm17d-hw>
 
 #### Documentation
 |features               |             |
